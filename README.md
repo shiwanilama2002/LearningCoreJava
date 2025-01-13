@@ -1,4 +1,11 @@
 Day1:Learning Basic Of Java
+This repository contains beginner-friendly Java programs covering fundamental concepts like:
+- Variables
+- Input/Output
+- Operators
+- Swapping numbers
+- Arithmetic operations
+- Area, perimeter, and interest calculations
 Create the basic java program to print hello world.
 Create the basic java program to take user name from input and print hello and the user name provide by user.
 Created the java program to swap two numbers with variable and without variable.
