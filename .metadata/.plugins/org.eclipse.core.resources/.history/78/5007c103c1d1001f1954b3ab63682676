@@ -1,0 +1,10 @@
+package IfElseInJava;
+
+public class PrintingDaysInMonths {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

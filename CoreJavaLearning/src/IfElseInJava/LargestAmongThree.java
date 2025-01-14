@@ -1,0 +1,28 @@
+package IfElseInJava;
+
+import java.util.Scanner;
+
+public class LargestAmongThree {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter the first number:");
+		Scanner sc = new Scanner(System.in);
+		int num1 = sc.nextInt();
+		System.out.println("Enter the second number:");
+		int num2 = sc.nextInt();
+		System.out.println("Enter the third number:");
+		int num3 = sc.nextInt();
+		sc.close();
+		if(num1>num2 && num1>num3) {
+			System.out.println(num1+" is greastest among "+num2+" and "+num3);
+		}
+		else if(num2>num3) {
+			System.out.println(num2+" is greastest among "+num1+" and "+num3);
+		}
+		else {
+			System.out.println(num3+" is greastest among "+num1+" and "+num2);
+		}
+	}
+
+}
