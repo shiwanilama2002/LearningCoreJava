@@ -13,12 +13,12 @@ public class PalindromeNumber {
 		int temp = num;
 		int rev=0;
 		int rem;
-		while(num!=0) {
-			rem = num % 10;
+		while(temp!=0) {
+			rem = temp % 10;
 			rev = rev*10+rem;
 			temp = temp/10;
 		}
-		System.out.println("The reverse of the "+num+ " is "+rev);
+//		System.out.println("The reverse of the "+num+ " is "+rev);
 		if(rev==num) {
 			System.out.println(num+ " is a  palindrome number.");
 		}
