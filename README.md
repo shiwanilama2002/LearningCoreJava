@@ -24,3 +24,5 @@ Performing operations such as traversal, insertion, and deletion of elements.
 Object and Class:
 Learned the principles of Object-Oriented Programming (OOP), focusing on objects and classes.
 Creation of objects, constructors, and understanding instance vs. class variables.
+Learned today about the crating an array of an object
+.
